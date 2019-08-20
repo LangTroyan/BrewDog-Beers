@@ -13,7 +13,7 @@
 		3C2872FE230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C2872FC230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld */; };
 		3C287300230C5DF00041D14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2872FF230C5DF00041D14C /* Assets.xcassets */; };
 		3C287303230C5DF00041D14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C287301230C5DF00041D14C /* LaunchScreen.storyboard */; };
-		3C287311230C604A0041D14C /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C287310230C604A0041D14C /* Beer.swift */; };
+		3C8E1698230C802000B41136 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E1697230C802000B41136 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,9 @@
 		3C2872FF230C5DF00041D14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C287302230C5DF00041D14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C287304230C5DF00041D14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C287310230C604A0041D14C /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		3C28731A230C70800041D14C /* Beer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C28731B230C70800041D14C /* Beer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C8E1697230C802000B41136 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,11 @@
 				3C28730C230C5FD20041D14C /* ViewControllers */,
 				3C28730B230C5FCA0041D14C /* Models */,
 				3C28730D230C5FDA0041D14C /* ViewModels */,
+				3C8E1696230C7FEF00B41136 /* Networking */,
 				3C28730E230C5FEA0041D14C /* Extensions */,
 				3C28730F230C600D0041D14C /* Resources */,
 				3C2872F5230C5DEF0041D14C /* AppDelegate.swift */,
 				3C287304230C5DF00041D14C /* Info.plist */,
-				3C2872FC230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld */,
 			);
 			path = "BrewDog Beers";
 			sourceTree = "<group>";
@@ -83,7 +85,8 @@
 		3C28730B230C5FCA0041D14C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3C287310230C604A0041D14C /* Beer.swift */,
+				3C28731E230C70960041D14C /* Beer */,
+				3C2872FC230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +119,23 @@
 				3C2872FF230C5DF00041D14C /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C28731E230C70960041D14C /* Beer */ = {
+			isa = PBXGroup;
+			children = (
+				3C28731A230C70800041D14C /* Beer+CoreDataClass.swift */,
+				3C28731B230C70800041D14C /* Beer+CoreDataProperties.swift */,
+			);
+			path = Beer;
+			sourceTree = "<group>";
+		};
+		3C8E1696230C7FEF00B41136 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E1697230C802000B41136 /* APIService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +211,8 @@
 			files = (
 				3C2872F8230C5DEF0041D14C /* ViewController.swift in Sources */,
 				3C2872FE230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld in Sources */,
+				3C8E1698230C802000B41136 /* APIService.swift in Sources */,
 				3C2872F6230C5DEF0041D14C /* AppDelegate.swift in Sources */,
-				3C287311230C604A0041D14C /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
