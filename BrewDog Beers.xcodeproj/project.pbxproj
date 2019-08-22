@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,21 @@
 		3C287300230C5DF00041D14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2872FF230C5DF00041D14C /* Assets.xcassets */; };
 		3C287303230C5DF00041D14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C287301230C5DF00041D14C /* LaunchScreen.storyboard */; };
 		3C8E1698230C802000B41136 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E1697230C802000B41136 /* APIService.swift */; };
+		8827C1DD230EC9EE00DC8BD0 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8827C1DC230EC9EE00DC8BD0 /* Kingfisher.framework */; };
+		8827C1DF230F2BBC00DC8BD0 /* UIViewController+Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827C1DE230F2BBC00DC8BD0 /* UIViewController+Spinner.swift */; };
+		88352201230D2DD3002582CD /* BeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88352200230D2DD3002582CD /* BeersViewController.swift */; };
+		88352203230D2DE1002582CD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88352202230D2DE1002582CD /* DetailsViewController.swift */; };
+		88352205230D2EE2002582CD /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88352204230D2EE2002582CD /* SearchViewModel.swift */; };
+		88352207230D2EF3002582CD /* BeersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88352206230D2EF3002582CD /* BeersViewModel.swift */; };
+		8835220D230D422B002582CD /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835220C230D422B002582CD /* UIViewController+Alert.swift */; };
+		88B11A93230D8207000A33FF /* Search+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835220F230D4681002582CD /* Search+CoreDataProperties.swift */; };
+		88B11A94230D8209000A33FF /* Search+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835220E230D4681002582CD /* Search+CoreDataClass.swift */; };
+		88B11A9C230E78B8000A33FF /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B11A9B230E78B8000A33FF /* Beer.swift */; };
+		91E1687EE12D37F452B9C138 /* Pods_BrewDog_Beers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156F2EBB9672A1222C81A1FD /* Pods_BrewDog_Beers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		156F2EBB9672A1222C81A1FD /* Pods_BrewDog_Beers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrewDog_Beers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2872F2230C5DEF0041D14C /* BrewDog Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrewDog Beers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2872F5230C5DEF0041D14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2872F7230C5DEF0041D14C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +37,19 @@
 		3C2872FF230C5DF00041D14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C287302230C5DF00041D14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C287304230C5DF00041D14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C28731A230C70800041D14C /* Beer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beer+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3C28731B230C70800041D14C /* Beer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3C8E1697230C802000B41136 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		666AC54F82AEF1F9456A3026 /* Pods-BrewDog Beers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewDog Beers.release.xcconfig"; path = "Target Support Files/Pods-BrewDog Beers/Pods-BrewDog Beers.release.xcconfig"; sourceTree = "<group>"; };
+		8827C1DC230EC9EE00DC8BD0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8827C1DE230F2BBC00DC8BD0 /* UIViewController+Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Spinner.swift"; sourceTree = "<group>"; };
+		88352200230D2DD3002582CD /* BeersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersViewController.swift; sourceTree = "<group>"; };
+		88352202230D2DE1002582CD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		88352204230D2EE2002582CD /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		88352206230D2EF3002582CD /* BeersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersViewModel.swift; sourceTree = "<group>"; };
+		8835220C230D422B002582CD /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		8835220E230D4681002582CD /* Search+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8835220F230D4681002582CD /* Search+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88B11A9B230E78B8000A33FF /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		F630434A2B3119B8385B5F55 /* Pods-BrewDog Beers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewDog Beers.debug.xcconfig"; path = "Target Support Files/Pods-BrewDog Beers/Pods-BrewDog Beers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8827C1DD230EC9EE00DC8BD0 /* Kingfisher.framework in Frameworks */,
+				91E1687EE12D37F452B9C138 /* Pods_BrewDog_Beers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +70,8 @@
 			children = (
 				3C2872F4230C5DEF0041D14C /* BrewDog Beers */,
 				3C2872F3230C5DEF0041D14C /* Products */,
+				DABA032131145A7E4C38CB81 /* Pods */,
+				86176A79571E0521AC7C82F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,31 +86,30 @@
 		3C2872F4230C5DEF0041D14C /* BrewDog Beers */ = {
 			isa = PBXGroup;
 			children = (
-				3C28730A230C5FBD0041D14C /* Views */,
+				883521FD230D2676002582CD /* Application */,
+				3C28730A230C5FBD0041D14C /* Storyboards */,
 				3C28730C230C5FD20041D14C /* ViewControllers */,
 				3C28730B230C5FCA0041D14C /* Models */,
 				3C28730D230C5FDA0041D14C /* ViewModels */,
-				3C8E1696230C7FEF00B41136 /* Networking */,
-				3C28730E230C5FEA0041D14C /* Extensions */,
+				883521FE230D28FD002582CD /* Utils */,
 				3C28730F230C600D0041D14C /* Resources */,
-				3C2872F5230C5DEF0041D14C /* AppDelegate.swift */,
-				3C287304230C5DF00041D14C /* Info.plist */,
 			);
 			path = "BrewDog Beers";
 			sourceTree = "<group>";
 		};
-		3C28730A230C5FBD0041D14C /* Views */ = {
+		3C28730A230C5FBD0041D14C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				3C2872F9230C5DEF0041D14C /* Main.storyboard */,
 				3C287301230C5DF00041D14C /* LaunchScreen.storyboard */,
 			);
-			path = Views;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		3C28730B230C5FCA0041D14C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8835220A230D2F46002582CD /* Search */,
 				3C28731E230C70960041D14C /* Beer */,
 				3C2872FC230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld */,
 			);
@@ -95,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				3C2872F7230C5DEF0041D14C /* SearchViewController.swift */,
+				88352200230D2DD3002582CD /* BeersViewController.swift */,
+				88352202230D2DE1002582CD /* DetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -102,6 +129,8 @@
 		3C28730D230C5FDA0041D14C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				88352204230D2EE2002582CD /* SearchViewModel.swift */,
+				88352206230D2EF3002582CD /* BeersViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -109,6 +138,8 @@
 		3C28730E230C5FEA0041D14C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8835220C230D422B002582CD /* UIViewController+Alert.swift */,
+				8827C1DE230F2BBC00DC8BD0 /* UIViewController+Spinner.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,8 +155,7 @@
 		3C28731E230C70960041D14C /* Beer */ = {
 			isa = PBXGroup;
 			children = (
-				3C28731A230C70800041D14C /* Beer+CoreDataClass.swift */,
-				3C28731B230C70800041D14C /* Beer+CoreDataProperties.swift */,
+				88B11A9B230E78B8000A33FF /* Beer.swift */,
 			);
 			path = Beer;
 			sourceTree = "<group>";
@@ -138,6 +168,51 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		86176A79571E0521AC7C82F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8827C1DC230EC9EE00DC8BD0 /* Kingfisher.framework */,
+				156F2EBB9672A1222C81A1FD /* Pods_BrewDog_Beers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883521FD230D2676002582CD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3C2872F5230C5DEF0041D14C /* AppDelegate.swift */,
+				3C287304230C5DF00041D14C /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		883521FE230D28FD002582CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3C28730E230C5FEA0041D14C /* Extensions */,
+				3C8E1696230C7FEF00B41136 /* Networking */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8835220A230D2F46002582CD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8835220E230D4681002582CD /* Search+CoreDataClass.swift */,
+				8835220F230D4681002582CD /* Search+CoreDataProperties.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DABA032131145A7E4C38CB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F630434A2B3119B8385B5F55 /* Pods-BrewDog Beers.debug.xcconfig */,
+				666AC54F82AEF1F9456A3026 /* Pods-BrewDog Beers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C287307230C5DF00041D14C /* Build configuration list for PBXNativeTarget "BrewDog Beers" */;
 			buildPhases = (
+				4710AEC63E3EF7618F20F72F /* [CP] Check Pods Manifest.lock */,
 				3C2872EE230C5DEF0041D14C /* Sources */,
 				3C2872EF230C5DEF0041D14C /* Frameworks */,
 				3C2872F0230C5DEF0041D14C /* Resources */,
+				08664D79524D6806DA0B8F3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,15 +281,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08664D79524D6806DA0B8F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewDog Beers/Pods-BrewDog Beers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewDog Beers/Pods-BrewDog Beers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrewDog Beers/Pods-BrewDog Beers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4710AEC63E3EF7618F20F72F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrewDog Beers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C2872EE230C5DEF0041D14C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C2872F8230C5DEF0041D14C /* SearchViewController.swift in Sources */,
+				88352205230D2EE2002582CD /* SearchViewModel.swift in Sources */,
 				3C2872FE230C5DEF0041D14C /* BrewDog_Beers.xcdatamodeld in Sources */,
+				88B11A94230D8209000A33FF /* Search+CoreDataClass.swift in Sources */,
+				8827C1DF230F2BBC00DC8BD0 /* UIViewController+Spinner.swift in Sources */,
+				88B11A93230D8207000A33FF /* Search+CoreDataProperties.swift in Sources */,
+				88B11A9C230E78B8000A33FF /* Beer.swift in Sources */,
 				3C8E1698230C802000B41136 /* APIService.swift in Sources */,
+				88352207230D2EF3002582CD /* BeersViewModel.swift in Sources */,
+				8835220D230D422B002582CD /* UIViewController+Alert.swift in Sources */,
 				3C2872F6230C5DEF0041D14C /* AppDelegate.swift in Sources */,
+				88352201230D2DD3002582CD /* BeersViewController.swift in Sources */,
+				88352203230D2DE1002582CD /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +484,12 @@
 		};
 		3C287308230C5DF00041D14C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F630434A2B3119B8385B5F55 /* Pods-BrewDog Beers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45HR8YZ3Y2;
-				INFOPLIST_FILE = "BrewDog Beers/Info.plist";
+				INFOPLIST_FILE = "BrewDog Beers/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,11 +503,12 @@
 		};
 		3C287309230C5DF00041D14C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666AC54F82AEF1F9456A3026 /* Pods-BrewDog Beers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45HR8YZ3Y2;
-				INFOPLIST_FILE = "BrewDog Beers/Info.plist";
+				INFOPLIST_FILE = "BrewDog Beers/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+framework module Pods_BrewDog_Beers {
+  umbrella header "Pods-BrewDog Beers-umbrella.h"
+
+  export *
+  module * { export * }
+}
